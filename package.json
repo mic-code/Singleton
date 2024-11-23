@@ -9,9 +9,6 @@
 		"pattern",
 		"singleton"
 	],
-	"dependencies": {
-		"com.unity.ugui": "1.0.0"
-	},
 	"documentationUrl": "https://github.com/mic-code/Singleton",
 	"licensesUrl": "https://github.com/mic-code/Singleton/blob/master/LICENSE",
 	"author": {
