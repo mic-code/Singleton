@@ -1,5 +1,5 @@
 {
-    "name": "Overimagined.Common.Singleton",
+    "name": "Overimagined.Singleton",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
