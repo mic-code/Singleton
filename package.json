@@ -1,18 +1,22 @@
 {
-  "name": "com.overimagined.singleton",
-  "displayName": "Singleton",
-  "version": "1.0.1",
-  "description": "Singleton base class for MonoBehaviour and plain c# class",
-  "keywords": [
-    "Singleton"
-  ],
-  "category": "Common",
-  "dependencies": {
-    "com.unity.ugui": "1.0.0"
-  },
-  "documentationUrl": "https://github.com/mic-code/Singleton",
-  "repository": {
-    "url": "git+https://github.com/mic-code/Singleton.git",
-    "type": "git"
-  }
+	"name": "com.overimagined.singleton",
+	"displayName": "Singleton",
+	"version": "1.0.0",
+	"description": "Singleton base class for MonoBehaviour and plain c# class",
+	"license": "MIT",
+	"keywords": [
+		"unity",
+		"pattern",
+		"singleton"
+	],
+	"dependencies": {
+		"com.unity.ugui": "1.0.0"
+	},
+	"documentationUrl": "https://github.com/mic-code/Singleton",
+	"licensesUrl": "https://github.com/mic-code/Singleton/blob/master/LICENSE",
+	"author": {
+		"name": "Michael Yuen",
+		"email": "michael@overimagined.com",
+		"url": "https://www.overimagined.com"
+	}
 }
