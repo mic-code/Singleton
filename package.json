@@ -1,7 +1,7 @@
 {
   "name": "com.overimagined.singleton",
   "displayName": "Singleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Singleton base class for MonoBehaviour and plain c# class",
   "keywords": [
     "Singleton"
