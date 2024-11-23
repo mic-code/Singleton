@@ -12,7 +12,7 @@
   },
   "documentationUrl": "https://github.com/mic-code/Singleton",
   "repository": {
-    "url": "https://github.com/mic-code/Singleton.git",
+    "url": "git+https://github.com/mic-code/Singleton.git",
     "type": "git"
   }
 }
