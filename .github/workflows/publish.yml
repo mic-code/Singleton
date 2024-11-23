@@ -8,13 +8,14 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v4
-    # - uses: actions/setup-node@v4
-    #   with:
-    #     node-version: '20.x'
-    #     registry-url: https://registry.npmjs.org
+    #Install Node.js, with the version 12 and using the registry URL of npm, this could be changed to a custom registry or the GitHub registry.
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        registry-url: https://registry.npmjs.org
+	# Patch version
+    - run: npm version patch
     # Publish to npm
-    - name: Publish
-      uses: mikeal/merge-release@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - run: npm publish --access public	
+    env:
+      NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
