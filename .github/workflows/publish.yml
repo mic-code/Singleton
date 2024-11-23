@@ -2,9 +2,8 @@ on:
   push:
     branches:
       - "master"
-
 jobs:
-  build:
+  Publish_NPM:
     runs-on: ubuntu-latest
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
